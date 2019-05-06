@@ -1,4 +1,4 @@
-## Angular Notes
+## [Angular](https://github.com/angular/angular-cli)
 
 ```
 npm install -g @angular/cli
@@ -17,13 +17,13 @@ yarn link
 
 
 
-## KARMA
+## [KARMA](https://github.com/karma-runner/karma)
 
 ```
 npm install karma
 ```
 
-## Protractor
+## [Protractor](https://github.com/angular/protractor)
 e2e testing
 
 ```
