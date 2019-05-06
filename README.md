@@ -12,4 +12,4 @@ Guide here: [Git Guide](git.md)
 
 ## WebDev
 
-[Angular Guide](angular.md)
+[Angular Guide](/angular.md)
