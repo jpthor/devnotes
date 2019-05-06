@@ -5,8 +5,11 @@ Notes for development with love from JP
 
 
 ## git
+I am huge on git. Commit every time you have something stable.
+
+Guide here: [Git Guide](git.md)
 
 
 ## WebDev
 
-[Angular](/angular.md)
+[Angular Guide](angular.md)
