@@ -3,6 +3,7 @@ Notes for development with love from JP
 
 ## terminal
 
+Guide here: [Terminal Guide](terminal.md)
 
 ## git
 I am huge on git. Commit every time you have something stable.
