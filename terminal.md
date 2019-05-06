@@ -32,7 +32,7 @@ service sshd reload
 
 
 // script to remove password
-# only allow key based logins
+only allow key based logins
 ```
 sed -n 'H;${x;s/\#PasswordAuthentication yes/PasswordAuthentication no/;p;}' /etc/ssh/
 chmod 777 sshd_config
