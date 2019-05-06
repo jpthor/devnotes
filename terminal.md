@@ -1,6 +1,6 @@
 ## Terminal
 
-## SSH
+### SSH
 
 // log in
 ```
