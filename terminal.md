@@ -44,7 +44,6 @@ rm tmp_sshd_config
 Users
 ```
 adduser snode
-RunningLoki
 usermod -aG sudo snode
 mkdir /home/snode/.ssh
 cp -rf /root/.ssh/* /home/snode/.ssh/
