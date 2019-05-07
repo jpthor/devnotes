@@ -57,10 +57,13 @@ kill <ID>
 
 
 HomeBrew
-```
+
 // clean install - Mac
+```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-// linus install
+```
+// linux install
+```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
 ```
 
