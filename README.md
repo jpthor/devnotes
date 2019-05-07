@@ -14,6 +14,7 @@ Guide here: [Git Guide](git.md)
 ## WebDev
 
 [Angular Guide](/angular.md)
+[Firebase Guide](firebase.md)
 
 
 ## App Dev
