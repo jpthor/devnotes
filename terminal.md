@@ -55,8 +55,22 @@ pkill -9 -f <processID>
 kill <ID>
 ```
 
+### Screen
+```
+screen
+<ctlr> ad
+Screen -ls
+Screen -x <number>
+<ctlr> ad
+```
 
-HomeBrew
+### Management
+```
+sudo shutdown -r now
+rm -R <dir>
+```
+
+### HomeBrew
 
 // clean install - Mac
 ```
