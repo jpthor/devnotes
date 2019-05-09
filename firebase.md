@@ -34,6 +34,11 @@ In `firebase.json`:
 "public": "dist/<project_name>",
 ```
 
+Or in `angular.json`:
+```
+"outputPath": "dist",
+```
+
 Then deploy:
 ```
 firebase deploy
