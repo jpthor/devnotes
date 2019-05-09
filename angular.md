@@ -15,6 +15,11 @@ ng update @angular/cli @angular/core
 ng update @angular/cli --migrate-only --from=1.7.3
 ```
 
+Dependencies:
+```
+npm install --save-dev <***>
+```
+
 ## [Node]()
 
 [Update](https://www.hostingadvice.com/how-to/update-node-js-latest-version/)
