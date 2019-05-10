@@ -2,6 +2,11 @@
 
 ### SSH
 
+// Create SSH key:
+```
+ssh-keygen -t rsa
+```
+
 // log in
 ```
 ssh root@
