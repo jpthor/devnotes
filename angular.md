@@ -15,10 +15,35 @@ ng update @angular/cli @angular/core
 ng update @angular/cli --migrate-only --from=1.7.3
 ```
 
+Debugging:
+```
+rm -r node_modules
+npm install
+npm install node-pre-gyp // pre-gyp errors
+yarn
+node patch.js
+ng serve -o
+```
+
 Dependencies:
 ```
 npm install --save-dev <***>
 ```
+
+testing
+```
+ng serve -o
+```
+
+Permisson Problems
+
+
+[Error getting modules](https://github.com/angular/angular-cli/issues/11969)
+```
+npm i @angular/compiler@6.1.1
+npm i @angular/compiler-cli@6.1.1 -D
+```
+
 
 ## [Node]()
 
@@ -38,6 +63,12 @@ sudo npm install --unsafe-perm=true --allow-root
 
 ```
 export PATH=$PATH:/usr/local/git/bin:/usr/local/bin
+```
+
+--or---
+```
+sudo chown -R $USER:$GROUP ~/.npm
+sudo chown -R $USER:$GROUP ~/.config
 ```
 
 ## [YARN](https://yarnpkg.com/en/docs/install#mac-stable)

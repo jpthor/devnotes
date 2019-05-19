@@ -46,7 +46,7 @@ cat tmp_sshd_config > /etc/ssh/sshd_config
 rm tmp_sshd_config
 ```
 
-Users
+### Users
 ```
 adduser snode
 usermod -aG sudo snode
@@ -58,6 +58,11 @@ chown -R snode:snode /home/snode/.ssh
 pkill -9 -f <processID>
 -or-
 kill <ID>
+```
+
+Grant permissions:
+```
+sudo chown -R Guest /Users/jpthor/dev/
 ```
 
 ### Screen

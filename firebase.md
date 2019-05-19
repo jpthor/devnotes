@@ -15,7 +15,10 @@ firebase list
 firebase init
 ```
 
-Testing:
+Move `index.html` and `assets` into the distribution folder set in `init`. Most likely `public`
+
+### Testing:
+
 ```
 firebase serve
 ```
